@@ -6,31 +6,35 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Thoughts on software`,
+    siteTitleAlt: `Matt Trifilo's Blog`,
+    siteLanguage: `en`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
+        formatString: "MMMM Do, YYYY",
+        feedTitle: "Thoughts on software",
         navigation: [
           {
-            title: `Blog`,
+            title: `Latest posts`,
+            slug: `/`,
+          },
+          {
+            title: `All posts`,
             slug: `/blog`,
           },
           {
-            title: `About`,
-            slug: `/about`,
+            title: `All tags`,
+            slug: `/tags`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `MattTrifilo.com`,
+            url: `https://www.matttrifilo.com`,
           },
         ],
       },
@@ -45,9 +49,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Matt Trifilo Blog`,
+        short_name: `matt-trifilo-blog`,
+        description: `Thoughts on software.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
