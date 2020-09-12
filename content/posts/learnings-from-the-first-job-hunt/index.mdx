@@ -1,0 +1,377 @@
+---
+title: Learnings from the First Job Hunt
+date: 2017-07-22
+description: What I learned from searching for my first software engineering role.
+tags:
+  - Learn to code
+  - Software engineering
+  - Job search
+---
+
+### Update 9/12/2020:
+
+I originally published the following post in Free Code Camp's forum: [Original post](https://forum.freecodecamp.org/t/i-got-the-job-heres-what-ive-learned-from-the-job-hunt/137709).
+
+I'm including it here (lightly edited) for posterity, and to hopefully help others who are are not Free Code Camp
+users. 
+
+There are hundreds of other posts, articles, and perspectives from other Free Code Camp students who made it to the other side:
+- [Career advice forum posts](https://forum.freecodecamp.org/c/career/299)
+- [Free Code Camp blog posts on getting their first job](https://www.freecodecamp.org/news/search/?query=first%20job)
+
+That said, be skeptical of claims like "I got my coding job after 6 months! Here's how you can too ;)". 
+
+A lot of factors come together for your first job offer, 
+including luck. If you're working full time, it will more likely take 1 - 3 years depending on your curiosity, discipline, and luck. 
+
+You absolutely can land a software engineering job without spending thousands of dollars on a boot camp. 
+
+Good luck!
+
+----
+  
+
+I’ve been looking forward to writing a post like this for a long time. 
+This Monday, I’ll be starting my new job as a Software Engineer!
+ 
+I want to share some actionable advice to help you get that elusive first developer job.
+
+### Don’t Rush Yourself
+I’ve seen a lot of Internet writings about people who’ve gone from no exposure to coding to a hired developer within 6 months. 
+Realize that those people are the unicorns. Be happy for them, but realize it will likely take you at least a year if you have a full time job. 
+I’d spent over two years working through Free Code Camp off and on before I got to a level where companies wanted to talk to me. 
+Don’t think of it as a competition for jobs against other developers where if you move too slow, you’ll get left behind. 
+There are more job openings out there than you could ever hope to apply to.
+
+Once you get good at building non-trivial applications, companies will be enthusiastic about getting you in for an interview because there just 
+aren’t many people at that level who aren’t already working for another company. It’s not a race. 
+Once you’re ready, companies will want to hire you. I promise.
+
+### When are you ready?
+
+When it comes to learning to code, I like to think of it like learning to climb a mountain.
+
+Before even reaching base camp, you need to learn about what gear you’ll need, how each piece works, and how all the pieces work together. 
+Then, you need to practice using your gear until you’re comfortable. Then, you need to learn to climb. 
+You’ll maybe start on some boulders, then steep hills, then some short peaks, and keep building up skills from there. 
+Over time, you’ll encounter obstacles you’ve never faced before and gain experience and priceless lessons from failures and frustration. 
+The key is to just keep going. Learn from your failures, and move on.
+
+Do, fail, learn, repeat.
+
+Eventually, it gets easier and easier, and you can attempt to summit larger and larger mountains.
+
+Relating that metaphor to learning to code, if you’re starting from zero experience, 
+you’ll need to get comfortable with your gear (command line, text editor, Git, HTTP, productivity tools), 
+then learn to climb (HTML, CSS, JavaScript), and finally scale larger and larger rocks, hills, peaks, and mountains. 
+(build more and more applications with increasing complexity).
+
+Can you summit a “fourteener” after 6 months? It’s possible, but it’ll be far safer and easier to get very comfortable and familiar with most aspects 
+of mountain climbing (building applications) first. Once you’ve gained some experience through building many projects, and have built a number of larger, 
+complex applications that went beyond your comfort zone and extended your limits, good companies will recognize that and have confidence that you can 
+offer the same work for their products while improving consistency. They'll invest in your growth as an engineer. Don't overlook culture fit. That alone
+can be your foot-in-the-door to getting hired over more experienced candidates. 
+
+### Kill Imposter Syndrome
+Don’t waste time with thoughts like “I can’t get this to work, I must suck at this.” or “I’ll never be a developer at this rate” or “Everyone is so much better than me”.
+
+Don’t waste precious time doubting yourself, or comparing yourself or your progress with others.
+
+The only metric that matters is this: “Did I learn something today?”
+
+If that answer is “Yes”, you win. Period.
+
+It doesn’t matter if your code is still broken, or if you’re still confused about a concept. 
+Learning to program computers is hard. You won’t understand certain things right away. It may take a few days, weeks, or even months to get comfortable with 
+certain concepts or technologies. That’s not only normal, that's part of the job. You'll be paid to learn new, complex technologies
+all the time. Get excited about that!
+
+As long as you’ve learned something today that you didn’t know yesterday, you’re moving in the right direction. 
+Imagine multiplying the level of new knowledge you've learned today times 365 or 730, and connecting those different bits of knowledge together. 
+Those lessons compound and reinforce each other over time in a big way. It may not seem like it in the moment, but they add up FAST.
+
+If you’re learning, you’re winning. If you don’t believe me, just look at the code you’ve produced last month (or even last week). 
+If you find yourself cringing at certain lines like the rest of us, pat yourself on the back. You’ve gotten better at it!
+
+Over time, those mini-lessons will add up to you becoming a developer that will be capable of bringing real value to companies and customers. 
+If you learn new things and practice every day, it will only be a matter of time before companies will want to hire you, 
+no matter who you are or where you’ve started from. 
+
+It's true that some companies filter out candidates for superficial reasons, but the companies 
+you'll want to work for will be looking for good engineers, not engineers who look good on LinkedIn. For your first job, you only need 
+to prove that you have undeniable potential of becoming a solid engineer with some mentorship and practice in a professional setting.
+
+### When Are You Ready to Apply for Jobs?
+In my personal experience, I began getting calls for interviews after I finished and deployed my first full-stack application for Free Code Camp, the voting application.
+
+The voting application consisted of the following: 
+- A ReactJS front-end that was responsive for mobile, optimized for production, and showcased the user experience best practices I'd learned up to that point like from validation.
+- An Express back-end running in NodeJS, with a MongoDB data layer for persisting user and poll data
+- Local and OAuth2 authentication for users to create and edit their polls.
+- Unit tests!
+
+By that point, I’d completed my Front End Certification, finished all of the API projects, and was ready to work through the remaining dynamic web application projects.
+
+After finishing the voting app, I decided to build a boilerplate based on what I'd used in the voting app to assist myself and others in bootstrapping the rest of the 
+dynamic web application projects with a modern stack centered around the React ecosystem.
+
+You can find it here: https://github.com/mtrifilo/react-ssr-boilerplate 
+
+Update 9/22/20: The boilerplate doesn't have the latest and greatest technologies or patterns anymore (like hooks), 
+but it should sill be useable. In 2020, I'd recommend starting with Parcel instead of Webpack for building your front end, 
+and still use Express and NodeJS. Webpack is great, but may be overkill for this scale of application. 
+
+The boilerplate offers a starting point with React, Redux, React Router 4, Webpack, Express, MongoDB, 
+and a JSON web token authentication strategy with local auth and OAuth with GitHub. 
+I strongly encourage you to learn each of those technologies individually before diving in, 
+otherwise you’ll hit a brick wall pretty quickly. Frontend Masters offers courses on everything I used for the boilerplate, 
+and the subscription is well worth the $39 a month (I am not affiliated with Frontend Masters in any way, I'm just a fan 🙂).
+
+You don’t need to use React if you don’t want to. Plenty of companies use Vue, Angular, Ember, or even custom built front end frameworks. 
+The important thing is that you get comfortable and proficient in at least one popular framework (after mastering vanilla HTML, CSS, and JavaScript of course). 
+They all exist for the same objective: to offer a scalable way to build client side applications. 
+Once you get comfortable with one of them, you can learn the others pretty quickly. 
+
+At this point in 2017, the most popular major frameworks have embraced components as first class citizens, 
+offer helpful CLI tools, have great documentation, large communities, and great debugging tools. 
+You really can’t go wrong with any framework these days. They each have their trade-offs and frustration points, 
+but if you learn them well, they’ll take you very far.
+
+So, when are you ready to apply for jobs?
+
+My simple answer: When you are capable of building a simple full stack application with a persistence layer, and can provide plenty of project examples 
+on GitHub that show consistent improvement. Without professional experience, this your proof to employers that you're capable of doing the work of 
+not only building applications, but learning autonomously. The ability to learn complex technologies autonomously is just as important.
+
+If you’re not comfortable with Git and GitHub, do yourself a huge favor and spend some time on it. It will help you immensely.
+
+Using GitHub as version control for your Free Code Camp projects, and other personal projects, will allow potential employers to read through your commits 
+and see you progress in real time. Don’t be shy! If they like what they see in your code, they will be much more confident in wanting to hire you than 
+they would be otherwise. You want your potential employer to have a good idea that you’d be a great fit for the role before you even walk in for the interview. 
+Open sourcing all of your projects will give good companies the evidence and confidence they need to be sure that you’re most likely perfect for the role they need to fill. 
+Just do it!
+
+### Applying for Jobs
+One downright lie that I’ve seen all over the web is the idea that job sites are worthless for getting your first developer job. Absolutely false!
+
+I’ve had a number of interviews from companies I’ve applied to through GlassDoor.com, and that’s also where I found my current company. In many cases, companies will post ads 
+on many different job sites that all link to the same job application either on the company’s website, or a service like Jobvite.
+
+It’s a grind, don’t get me wrong, but if you can get one interview for every 20 applications, it’s worth it.
+
+If you’re applying to more than 20 companies without even a phone call, don’t take it personally. There’s likely a reason you’re being passed for other candidates. 
+Revisit your resume, cover letters, and how you’re presenting your portfolio. Google yourself. Look at how you’re presenting yourself through the lense of a hiring manager. 
+Create a “funnel of success” so that companies visiting any of your portfolio pages will be guided to the best of what you have to offer. If you’ve gotten far enough through 
+Free Code Camp to be ready to apply for jobs, then you already have plenty of apps to showcase. If they aren’t open sourced, put them on GitHub. Make sure you're showcasing at 
+least some level of professionalism as well. If your GitHub handle is `Ska8rBoiBroLyyfe420`, you may want to change that before hiring managers see it. Details matter. If 
+a manager wants to hire you despite no professional experience, they may need to go to bat for you if the CTO is the final decision maker and has reservations. 
+Help them have as strong a case as possible for hiring you without experience.
+
+Hiring managers will vet you. They’ll look at your code on GitHub, they’ll look through your tweets, they’ll read your blog. Give them something to get excited about! 
+You don't need to conform your Internet life to looking good for companies, but at the very least, have some recent projects on GitHub to prove you know what you’re doing, 
+and make sure there is nothing offensive on your public social media accounts that may raise doubts about whether you’d follow company policies or code of conduct.
+
+Don’t get discouraged if you apply to 30 or 40 companies without any interviews. It takes hard work and practice to get your resumes, cover letters, and portfolios polished 
+to the point of getting the attention of employers. Even if you’re the best candidate for the job, employers will usually throw your resume in the trash if it has spelling 
+errors, grammar mistakes, a headshot (Don’t include a picture, ever! It exposes companies to potential legal trouble if they contact you, so they won’t), or lies.
+
+### Resumes
+I think it’s safe to say that everyone hates resumes. Candidates, HR people, managers, probably you.
+
+Unless you’re going to do something very unique and fun with it, just keep your resume as clean and simple as possible. 
+Don’t worry about fancy garnish or flashy fonts. If the fluff makes your resume harder to parse in 10 seconds, that will work against you. 
+A boring but clear, concise, and readable resume will elicit a mental “Thank you for making my job easier” from every manager who reads it. 
+Its purpose is to communicate essential information about a candidate to managers as quickly as possible.
+
+A hiring manager will only devote a few seconds to reading your resume, so keep the most important things front and center. 
+Make your contact information available, and easy to see quickly. Include your phone number, email address and GitHub profile address at the very least.
+
+Offer a “Summary” section that will be your elevator speech. A few sentences each of who you are, what you’ve done, and what you can do to make the company more successful. 
+This might need a few revisions over time. Mine certainly did.
+
+After the summary, add sections for closely related work experience, some projects that showcase the best of what you’ve built 
+(with a short description, and links to live demos and source code of course), technologies you’re proficient in, and education.
+
+Order each section based on most impressive to least impressive, but keep the summary at the top so at least that will get read.
+
+For the technologies section, you’ll want the resume scanners to bring you up if a manager is looking for a reference to words like “JavaScript” or “leftpad”. 
+Don’t be tempted to list everything you’ve ever played with for 5 minutes. Only list a technology if you’ve actually used it in a project, 
+and can back up the claim with actual code that proves that you know how to use it effectively. 
+If you want to learn something like Webpack or Sass, spend a few days building a challenging, non-trivial project with the technology you’re learning, 
+and use GitHub for version control. Just like that, you can put it on your resume! If it’s a new language or framework, you’ll need to devote more time to learning 
+and building projects with the new thing. That comes back to the importance of getting very comfortable with one language and framework first. 
+Once you’re good at one, you can pick up others much faster. Use that code-fu to your advantage. The take-away is, only include technologies you can back up with actual code. 
+Too many people include tech that they’ve only used in a small Codepen project, or have only read about. If you can’t back it up with real code, leave it out. 
+Good managers can pick up on unrealistic boasting very quickly. They’re vetting you, remember?
+
+No one expects you to know all of the new, hip technologies. Just be honest and open about what you know and don’t know, and demonstrate that you’re excited to learn 
+new things whenever necessary.
+
+Education has varying importance depending on the company. Some will only talk to you if you have a CS degree. 
+Others won’t care if you went to college at all as long as you can prove that you can build software. 
+If you’ve earned a degree for anything other than Computer Science, try to include any impressive accomplishments like a high GPA, or and extra curricular accomplishments.
+Oftentimes, companies that require a bachelor degree won't care about what you actually studied, just that you completed the four year degree.
+
+After all of that, don’t obsess too much about your resume. Your code and your projects will speak much louder. 
+Just make sure you’re completely honest, but highlight what makes you the candidate they should hire. (hint: you have awesome projects you can showcase!).
+
+Be sure to have a friend, your SO, your Mom, or a recruiter pal read your resume to ensure there are no spelling errors or grammatical errors. 
+Take their advice with gratitude, but with healthy skepticism unless they have experience in recruiting or hiring developers specifically. 
+I’m not an expert either. Trial and error will reveal what works for you over time.
+
+### Cover Letters
+Just write them. If you’re applying to so many companies that it’s becoming a real issue to write cover letters, something else is probably disqualifying you 
+in the eyes of employers. Cover letters take time, feel repetitive, but they're a powerful opportunity to get the attention of employers 
+who would never take you seriously otherwise. Culture fit matters a lot to many companies. So much so that they may even hire you over a more experienced candidate if
+you're a better culture fit. Read the company's mission statement and values. Do they resonate with you? If so, why? If you can articulate how and why you want to help their mission,
+that will get you interviews far quicker than listing off tech keywords. There are many companies that take cover letters seriously, 
+and may interview you simply because you cared enough about the role to take the time to write a personal cover letter while the other 30 candidates just gave them copy-pasted 
+generic cover letters they found online. If this will be your first job related to software development, a cover letter is your best chance to explain why you care about the 
+company and their mission, why you’re going to be amazing addition to the development organization, and what projects you’ve done that **prove** you’ll be a great hire.
+
+Sure, a lot of companies don’t read cover letters anymore, but the ones that do are the ones that will take them seriously, and that’s one more way to set yourself apart from the 
+multitude of other candidates mass-applying to every company they see without even remembering the company’s name.
+
+It’s easier to get to the top of the resume pile than you might think if you’re willing to put in some extra effort. Do everything you can to stack the odds in your favor. Treat the 
+process with the same focus and care as you would with your dream work project.
+
+It helps to write a generic cover letter as a template so that you don’t have to write the same basic information over and over again, but most of each cover letter should be 
+unique to each company. It really doesn’t take much time after you write a few. You have a lot to gain from taking the extra time.
+
+### The Grind is Real
+The hard truth is if you don’t have any related work experience, and your resume lands on the desk of a HR manager, it’s most likely going in the trash. 
+It doesn’t matter if you invented the next Webpack. Many HR people aren’t technical (and why should they be?) so they’ll just pick the candidates that are most 
+likely to be hirable based on work experience. If you have no work experience, your profile may not even be looked at by anyone technical at the company. 
+I’ve heard this called the "HR firewall". 
+
+It’s their loss. The companies you WANT to work for will care more about your actual code and what you can actually do right now than your previous work experience. 
+If you can prove you can produce great results with modern technologies, and can show that you’re very well versed in either JavaScript, Python, PHP, Java, or others, 
+lack of work experience won’t matter as much and you’ll likely get a phone screening at the very least. Skilled developers are in high demand, and companies don’t 
+necessarily care about where they come from, as long as they can do the job well.
+
+So how do you find these companies? How do you get your resume from the HR office to the desk of the Software Engineering Manager or tech lead who will actually look at your code?
+
+The fastest way is through networking. This isn’t mandatory, but it certainly helps a lot.
+
+### Networking
+One of the fastest way to get your resume to the top of the pile is to contact a hiring manager directly, and bypass the company’s Careers page entirely.
+
+You shouldn’t spam people you’ve never met, but if you go to a meetup where a local company is presenting something cool they’re working on, be in attendance. 
+Oftentimes, they’ll mention that they’re hiring and encourage anyone in attendance to email a manager at the company directly if they’re interested in working for them. 
+That email address could fast-track you to an interview if you’d be a good candidate. You’ll also have the opportunity to talk shop with experienced developers you 
+wouldn’t normally meet day to day.
+
+On the first of every month, Hacker News hosts a “Who’s Hiring” thread, which quickly fills up with dozens of posts by companies hiring developers. 
+Use your browser’s search feature to find the jobs you want. Some companies will provide an email address to a manager who will take a look at your resume and portfolio. 
+When sending a resume to someone via email, treat the body of the email as your cover letter.
+
+“Networking” has all sorts of groan-inducing connotations, but it’s very simple. Just talk to people with shared interests. There are a lot of amazing development 
+communities full of people who like to geek out about tech. Don’t go asking people “Hey, are you hiring?”, but if you just talk to people about cool things 
+you’re working on that you’re excited about, and cool things they’re working on that they’re excited about, the people who ARE hiring will find you in those situations. 
+People know people, and they talk to each other.
+
+Worst case scenario, you’ll meet nice people, have some free pizza, hear a talk about something you’re interested in, and learn some new things. The horror.
+
+### Interviews
+Interviewing is stressful. There’s no way around it. You just have to go through it and realize that no matter what happens, you’ll always feel better when it’s done. 
+It’s good for you.
+
+Thankfully, the people who are interviewing you will more than likely be very nice, welcoming, and rooting for your success. If they act cold or condescending towards you, 
+take that as a red flag against the company. Remember, you’re interviewing them too. Is this a company you’d want to work for?
+
+The process usually starts with a phone screening, which is a 10-20 minute conversation about the position, what they’re looking for, your experience, and what you’re looking for.
+
+If the recruiter thinks you could be a contending candidate for the position, and your experience and objective match what the company is looking for, on paper at least, 
+you’ll move on to the next step.
+
+This is where companies vary widely. You could get a take-home project to work on for a few hours and turn in, or you could be invited to pair-program with a developer, 
+with you in the driver’s seat, and build a small project. You could get both tests. For both take-homes, and pair-programming challenges, the interviewer will likely 
+give you the freedom to pick any library or framework you’d like to build the project. Cool, that means you can just use React because it’s the hip thing, and you’re really 
+good at it, right? You can, but take a step back and think for a moment.
+
+If your task is to build, say, a stop watch with a lap counting feature, is React truly necessary? Think of the pros and cons of bringing in the library. 
+React may help you organize the code, but it’s a small project which won’t be growing or scaling after it’s done. It won't be worked on by a team either. 
+Instead of React, you can use the [revealing-module pattern](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript) 
+to keep your application clean and encapsulated. This route will also showcase that you know the revealing-module pattern!
+React is easy to get started with and use with practice, but it requires more time and boilerplate to set up versus vanilla JavaScript. What is the project gaining by using React
+in this context? React is fairly lightweight, but it still adds weight to the page that might not be necessary at all if you just use a design pattern with vanilla JavaScript. 
+React offers great performance for manipulating the DOM, but this app won’t be doing any expensive DOM manipulations. 
+
+Is React fun and a joy to work with? Yes. The company is using React in production, so should you use React in the challenge? Only if it’s required, or clearly needed for
+solving the problem. In the case of the stop watch app, introducing React is a poor choice for solving the interview problem. 
+It’s a small app with simple, predictable DOM manipulations, and it will not need to scale at all once it’s finished. React is not necessary in this case. While evaluating the 
+options for implementing the interview project (if you're free to choose the implementation), bring up these considerations with your interviewer to make it clear why you're
+making your decisions. There are many different ways to tackle most interview problems. The important thing is to come up with a good implementation based on the requirements, 
+and justify your decision. Your interviewer may have chosen a different implementation, which is fine.
+
+It’s easy to think that you’ll be judged based solely on finishing the coding challenge and delivering a working solution, 
+but that is only part of what you’re being judged on.
+
+I thought I failed my first pair-programming challenge in spectacular fashion. I didn’t come close to finishing the small app I was tasked to build, and 
+I had to look up a lot of basic DOM API methods on the MDN. Even so, I made it to the next round of interviews.
+
+Why?
+
+I can’t know for sure, but I can speculate that there were a few reasons. First off, the interviewer was looking at how I approached the problem. 
+Would I reach for the framework I’m most comfortable with instinctively? 
+Or would I use the best solution to the problem at hand, even if I’m less comfortable with it? I ended up scaffolding out the application with vanilla JavaScript, 
+even though I’m terrible with the native DOM API’s, and have to look up methods all the time. 
+Importantly, I demonstrated that I know where and how to look up the methods I need as I need them. It was slow going, and I made a lot of mistakes, 
+but I kept my cool, and worked through the problem one step at a time, talking through it every step of the way. We ran out of time before I got any of the 
+main features completed, but the main purpose of the interview wasn’t about finishing the toy app. It was about getting a sense of how I approach new problems. 
+The interviewer mentioned later that I was working on building the actual app while other candidates who chose React were still setting up the boilerplate. I made the right call.
+
+One thing to emphasize: vocalize your thinking always while pair-programming in an interview setting. The point of the interview is to see how you approach problems, 
+and they can’t read minds. Talk through what you’re thinking and doing. This might seem a bit awkward at first, but you can practice by pair-programming with friends or 
+other Free Code Campers, or even by talking through the process on your own to get comfortable with it.
+
+The next phase after the initial take-home/pair-programming technical interview is usually an on-site interview, though every company is different. 
+At the on-site interview, you’ll generally spend the day at the company getting to know potential teammates and managers, and have a series of interviews throughout the day. 
+Some interviews may be one-on-one, others may be with a group. Some will be purely technical, others will be more culture-fit type interviews.
+The technical interviews may include the dreaded white board questions, but many companies don’t use white boards anymore. 
+If you’re interviewing with companies like Google or Facebook, count on white board challenges. At this phase in the technical interviews, 
+you’ll most likely get questions or challenges related to data structures and algorithms. You may be expected to implement a couple. 
+Don’t panic! If you spend time learning and practicing at least some of the basic data structures (stacks, queues, linked lists, maps, etc.) and algorithms 
+(bubble sort, merge sort, quick sort, binary search, etc.), you'll be better prepared to implement a couple, solve related challenges, or at least discuss them. 
+For a first programming job, you won’t be given the sort of brain-meltingly difficult computer science interview challenges that senior developers commonly see. 
+You’ll get there someday. For you’re first programming job, you’ll be expected to demonstrate that you at least understand how the basic data structures and algorithms work, 
+what Big O notation is, and why time complexity and space complexity are important.
+
+Algorithms and data structures are intimidating at first, but you'll get better at them with practice. They're hard for everyone at first. 
+If you made it through pre-calculus in high school, you can handle and data structures and algorithms. The important thing is to learn to implement them on your own based 
+on written requirements or very generic pseudocode. Don’t just memorize them! The skill set you want to develop is the ability to implement them yourself. 
+If you can do that, your interviewer can give you any task to build out, and you’ll be able to figure it out on your own with a few clarifying questions. That's what they want to see.
+This is a hard, hard skill to develop, and it will hurt your brain and take a lot of time to master. Senior engineers make the big salaries for a reason. 
+Don’t get discouraged. Just keep practicing. Build implementations of the common algorithms and data structures, 
+and try out some related interview challenges on sites like [LeetCode](https://leetcode.com/). Over time, you’ll get better and better at these challenges. 
+It will be hard, but don’t quit! It's supposed to be hard.
+
+Keep in mind that for your first development role, you won’t be expected to know how to implement every data structure and algorithm (your interviewer won’t know all of them, either), 
+so be very open and honest about what you know and what you don’t know. No matter what questions or problems they present you with, give it your best shot. 
+Don’t worry about how you’re doing, or what they might be thinking of how you’re doing. It doesn't matter. Focus 100% of your attention on the problem at hand. Be present.
+If you haven’t learned linked lists yet, but are very familiar with stacks and queues, mention it! They might give you a question about stacks and queues instead, 
+and you’ll be much more prepared to nail the challenge. If you can prove you're proficient with stacks and queues, they'll know that you can learn linked lists. That said,
+learn linked lists if you have time.
+
+The most important thing to demonstrate when it comes to algorithms and data structures is that you understands what Big O notation is, and why it's important. 
+Shipping code that is O(n^2), that could have been O(n), costs real money, time, and CPU cycles in production. Prove to them that you won’t do such a thing.
+
+### Takeaways
+Whether or not a company hires you is largely outside of your control. Put your best self forward always, and make learning and gaining experience your primary objective 
+while interviewing. Every interview will be a challenge that will teach you a few things, and you’ll get better at it over time. Try not to worry too much about whether a 
+certain company hires you or not. Every interview will get you that much closer to getting an offer from one company or another.
+Their will always be another company that will want to interview you. If you get rejected, learn what you can from it and move on. You only need one company to extend a job offer.
+
+Get comfortable with failure. I’ve gained many priceless lessons from the moments I’ve failed interviews or code challenges. 
+You can’t get those lessons any other way, and any good developer you’ll talk to will have similar stories. It’s part of the journey. 
+If you can reframe the idea of failure into a opportunity to learn something you couldn’t learn any other way, failures take on a whole different significance.
+
+You may have heard some motivational quote like: “You either win, or you learn. The only way to lose is to quit.”
+
+It's true.
+
+If you focus on getting better at coding and interviewing every day, you’re winning. That’s it. Period.
+
+You could have an interview every day and get rejection emails after each one, but if you’re getting better and better each and every day, 
+there will be a point where you’ll be the best candidate for the right job at the right moment. If you consistently improve and keep moving forward, 
+it’s only a matter of time.
