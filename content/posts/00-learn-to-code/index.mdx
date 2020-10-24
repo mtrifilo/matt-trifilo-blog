@@ -1,0 +1,215 @@
+---
+title: Learning to Learn to Code - 00 The Beginning
+date: 2020-24-18
+description: Learning to Learn to Code - 00 The Beginning
+tags:
+  - Learn to code
+---
+
+### The Earth says hello
+
+This post is the first in a series on how to learn to code effectively, and avoid many of the pitfalls I'd experienced on my own journey.
+
+If you're learning to code, you're about to survey the current landscape of software engineering, how different (but similar) complex technologies tie together, and how you can solve almost any problem while shipping a software project. We'll get low-level enough to ship a single page application, but this will mostly be a guided tour of learning software development in general, along with links to high-quality resources for leveling up. 
+
+### But why?
+
+Why not jump into more code tutorials? Why learn to learn to code? Who needs context around complex topics?
+
+I did. Context matters a lot as it turned out. 
+
+One of the hardest parts of learning to code is filling in the knowledge gaps between topics without mentors. You can learn HTML, CSS, JavaScript, and React. You can learn Node, Express, and MongoDB. You can learn Golang, C, and Assembly. Congrats to you! But what if you decide to build a single-page application with persisted data that can scale? Where do you begin? How do you decide what libraries to use? How do you know when to even use a library? We'll get to that. The challenge with learning these technologies separately is there's really no good way to learn how to tie them together without actually doing it. There are plenty of tutorials on how to build an app using the multiple technologies mentioned, but what happens when you begin building your own apps with your own requirements? This gap is what I'm going to focus on, while discussing the relationships between your favorite technologies and tools, and how to discover what you need to fill these gaps on your own. This can apply to projects, interviews, and even your startup idea.  
+
+Learning higher-level topics like the histories of programming languages and tools, their initial design objectives versus current usage, and how they've evolved over the years may seem like a waste of time when you just want to build apps. Trust me on this. Wasting weeks on a solution that is hyped up in the industry, but not necessary for what you're trying to do, is a much bigger waste of time. Knowing where the languages and tools came from and why can help you properly wield them, and make good decisions based on your objective--not industry hype that may not be relevant to your goals. 
+
+Say it with me: "My pet-share app does NOT need block chain."
+
+### What it takes to be hireable
+
+You don't need a computer science degree. Competent software engineers are in short supply, and companies will happily hire you if you prove that you know how to code autonomously, show that your skills are consistently improving, and most importantly demonstrate that you'd be a great culture fit. 
+
+Notice the words "prove" and "show". Without a degree, the only worthwhile measure of your skills will be your actual code and projects you've completed. You don't need to invent a new programming language to stand out. If you can link to even one non-trivial application you've designed, implemented, and deployed online that includes persisted data and authentication, and is useable with no obvious bugs, that alone will put you ahead of most junior engineers looking for their first tech job. 
+
+Easier said than done.
+
+I'm going to attempt to unpack all of the pieces of that mythical application so that you can build one of your own that will convince hiring managers that you'll grow into a great engineer when offered a chance. They'll want to invest in your growth if you prove to them that you'll put in the effort. The hardest learnings happen on the job. Deploying your non-trivial project will show them that you are ready to start your career and take it seriously. The want junior engineers who are motivated to face any challenge head on, and constantly improve. 
+
+While junior engineering jobs are more competitive than more senior engineering roles, don't see it as a competition. Focus on improving your own skills down to the smallest detail. At some point, you'll be the top candidate because anyone better would have already been hired somewhere else, or would be considered for a more senior role. 
+
+Focus on making the highest quality projects possible that you'll be proud to showcase for hiring managers and your future teammates. It won't be easy, but you'll stand out clearly from the sea of boot camp grads.
+
+### A lot is possible in Software Engineering
+
+You may love web development, you might hate it. 
+
+I started out as a front end developer, transitioned to full stack developer building API's to used by the front end, and finally began working on back end services full time. Today, I work on back end microservices exclusively. 
+
+I never thought I'd land on working on microservices using Java, but that's what I ended up enjoying the most. When I was first learning, I thought I'd hate Java since there is a lot of stigma around the language, as a lot of celebrity front end engineers love to dunk on it. No programming language is good or bad, they're all tools with different uses. Some are better suited for certain objectives than others. Don't base your career on the opinions of others. There are many different paths you can take with depending on what you want to do, which is very liberating. It will likely take some time on the job before you discover what you want to focus on. Experiencing multiple roles will only help your career over the long term, though we'll start with web development in this series.
+
+Here are some of the paths you could take:
+
+* Mobile Engineer - build mobile "apps"
+	* iOS - Swift, Objective C
+	* Android - Java, Kotlin
+  * Both - React Native
+* Front End Engineer - build Single page applications for the browser (both desktop and mobile)
+	* HTML, CSS, JavaScript
+	* React
+	* Vue
+  * Angular
+* Back End Engineer - build microservices and API's for business domains (we'll learn about this later)
+	* Java
+  * C#
+	* Go
+	* Python
+	* JavaScript (NodeJS)
+	* PHP
+* Full Stack Engineer - varies, but mostly work on a mix of front end and back end tasks, usually close to where the front end and back end meet
+	* Mix of front end and back end technologies around API's
+  * GraphQL (client and server)
+  * ?? (varies widely)
+* Site Reliability Engineering - varies, but generally build and maintain software infrastructure (hosting, cloud, standardized frameworks and libraries for software projects across teams)
+	* Java
+	* Go
+	* Bash
+  * Ansible
+  * Puppet
+	* ??  (varies widely)
+* Embedded Software Engineer - build software for devices and hardware
+	* C
+  * C++
+	* Rust
+  * Java
+* Data Scientist - work with big data, machine learning, and analytics
+	* Python - Pandas, PiPy
+	* R
+  * Data pipelines
+  * Machine Learning
+  * Artificial Intelligence
+* Game Software Engineer - build games!
+  * C#
+  * C++
+  * C
+  * caveat: generally longer hours, tighter deadlines, and less pay than other roles in the industry
+
+### What is "software engineering" anyway?
+
+There are many job titles that mean more or less the same thing. Depending on the company, they may call you "Software Engineer", "Software Developer", "Software Development Engineer", "Programmer", or any number of other names that you may help make up someday. It doesn't matter. While technologies and specific responsibilities vary widely depending on the company, all of those impressive-sounding titles mentioned require the same basic competencies for building software. 
+
+One exception is "Web Developer" which could describe either building single page applications, or a role where you'd be building basic marketing websites or landing pages for clients using website generators like Wordpress, Jekyll, or Gatsby. Considering that Wordpress has a market share of 37% of all websites on the World Wide Web, you'll find plenty of job openings if you go that route though you may find that work repetitive after a while. I won't be covering Wordpress or other web site generators here. Once you're able to build single page applications for the browser, you'll be able to learn how to use web site generators fairly quickly, and you'll have a wider range of job openings you can pursue. 
+
+So what do "Software Engineers" or "Software Development Engineers" *do*?
+
+While they do code quite a bit, the construction portion of building software is only part of the story. Becoming proficient at coding alone may get your foot in the door at many companies, but there are many aspects of software engineering that are more important than coding alone. Don't worry, you can learn all of this on the job, but it will help you understand what companies will expect you to do on the job day-to-day so it's worth knowing what you're in for. Many books have been written on this topic ([Code Complete by Steve McConnell](https://www.barnesandnoble.com/w/code-complete-steve-mcconnell/1100354307) is highly recommended), but we'll touch on some of the more important aspects of software engineering that you'll experience at most companies.
+
+#### Introducing: the ✨User✨
+
+One of the biggest shifts in mindset from building personal projects to working on a company codebase is that you'll be working with a product organization to build actual software products used directly or indirectly by real-life humans. It may be obvious, but really think about what that means. What are the consequences of deploying a bug for a personal project versus a software product relied on by thousands (or millions) of users? What if the defect breaks a feature that affects their own livelihoods? What happens if many of them post to social media that they're angerly leaving your product for a competitor due to the bug they find unacceptable? 
+
+Bugs take on a whole new level of urgency and significance when you're supporting real users. Depending on the product, a defect could affect the livelihoods of many thousands of people, causing lost revenue and increased stress and anxiety for them. If that happens too often, their trust could erode to the point where they leave your product for a competitor, even if they prefer your product. 
+
+Customer empathy is a term you'll likely hear a lot, and for good reason. The decisions you make as an engineer affect many, many humans at scale. The good news is you'll be in a position to serve their needs, and hopefully make their lives better in some way, whether it's an individual who saved a few seconds of their precious, finite time on this Earth thanks to your product, or another business that was able to grow and hire more people thanks in part to your product enabling some of their growth.
+
+Finding ways to serve your users more effectively to achieve the company's mission will be the primary goal behind everything you do at a software company. All of your personal and team objectives will feed into that prime directive in some way. Keep that in mind during interviews. You won't be hired to just code, you'll be expected to solve real problems for real people.
+
+#### Engineering is a team sport
+
+For the most part, software products are developed by teams. They come in many forms and sizes, but you'll almost certainly be working together with people with different disciplines and expertise to deliver complete features and products. 
+
+Here are some of the archtypes of roles you'll likely be working with on teams:
+
+##### Engineering Manager
+You'll have an engineering manager who will be the leader you're reporting to, and the person who will evaluate your performance, raises, and help coach your career growth. A good manager will work with you to bring out your full potential, and challenge you to consistently improve your career in a mutually beneficial way. As you learn and grow, you'll be able to take on more responsibilities, and contribute more to the features and products your team is responsible to deliver. That helps your users, makes the team look good, makes your manager look good, and helps your company's mission. If you're thinking that will lead to raises and promotions, you're absolutely right! 
+
+Engineering managers generally look to hire engineers who will demonstrate that they can solve problems and improve their own skills autonomously, without having to be told what to do and how. As a junior engineer, you'll likely have a lot of supervision and assigned tasks as you get comfortable, but you'll be expected to become more and more autonomous as you become more experienced, and certainly as you move up the career ladder. Keep this in mind for interviews. Your projects should demonstrate that you can figure out how to solve problems on your own, but you should also have the humility to ask for help when a simple answer can save you a lot of time, which is the company's time.
+
+##### Product Manager
+
+This role can really vary depending on the company, but a product manager (or product owner) is generally responsible for ensuring that the products and features owned by a team are solving the right problems for users. Think of this person like a director on a film set. They're responsible for prioritizing what everyone on the team should be focusing on to achieve the team's objectives.
+
+You'll likely not be reporting directly to the product manager (your direct leader will be your engineering manager), though your product manager will be guiding what your day-to-day work items will be, even if you define them yourself. The product manager keeps the team pointing in the right direction, especially when there are competing priorities and objectives to consider at the same time.
+
+##### Designer
+
+If your team is working on customer facing UI, you'll likely have a designer on your team who will work with the product manager to define the form and function of the product or feature, do research around what user experience would best serve the user's needs, and finally build mockups of the designs that the front engineers will implement in the application
+
+##### Tech Lead
+
+In a team with multiple engineers, a senior engineer will generally serve as the Tech Lead who will have the final say and accountability regarding technical designs at the team level. They will also be responsible for enforcing the team's engineering culture, and ensuring that the company's engineering guidelines are followed by everyone. That is everyone's responsibility, but the tech lead is usually held accountable for the team's adherence to the company and team policies, procedures, and style guides during development. They may also need to sign off on all pull requests before they can be merged. 
+
+Tech leads may also make themselves available to mentoring-related questions, and may even have 1-on-1's with engineers on the team to answer any technical questions, or help with career growth. 
+
+##### Software Engineers
+
+In a cross-functional team, there will likely be a mix of front end, back end, and full stack engineers all working together to build all the things. You will be one of them!
+
+##### Quality Assurance Engineers
+
+Quality Assurance Engineers may or may not be on your team, or you may not have them at all at your company. The QA folks are responsible to testing the features and products before they are deployed to production to ensure that they are working expected, and that all expected edge cases and potential user behaviors are handled properly. If not, the issues uncovered will need to be fixed before being deployed. The QA engineers are the last line of defence before a new code change gets deployed (assuming all automated tests are already passing). 
+
+Many QA engineers will likely be much more familiar with the software from a user's perspective than you will be, and will be great folks to work with when you're testing your code changes. They may know of customer use-cases that you haven't considered for testing. It's always better to find bugs during testing, long before customers find them in production.
+
+##### Everyone's in it together
+Teams will look different depending on the company. Some may have separate front end and back end teams. Some will have a teams of engineers, and separate teams of designers. Some may have quality engineers embedded in teams, or even a completely separate quality assurance department. 
+
+Many companies structure their product organizations as cross functional teams because it ensures that everyone working on a specific product or feature remain aligned to the same goals or outcomes. There's a phenomenon known a [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) that is very real. Instead of having a back end teams focused on separate concerns from the front end teams, which are separate concerns from the design teams, a cross functional team per product or feature (could be multiple products and features per team) helps ensure that everyone from every discipline works together to deliver the best product experience for the users. 
+
+#### Agile 
+
+You may have heard that [Agile](https://www.atlassian.com/agile/project-management) is eating the world. You may have no idea what agile is. I'd argue that no one does, really. It's taken on many different interpretations and forms over the years, but it basically describes iterative project management.
+
+Another style of project management that has fallen out of fashion at most companies is called "[Waterfall](https://www.lucidchart.com/blog/waterfall-project-management-methodology)", which involves planning a fully completed feature or product up front, and expecting to deliver the fully completed product or feature all at once. Guess how often that works out?
+
+Instead of planning all aspects of a Big New Feature all at once, and delivering the perfectly completed Big New Feature by a deadline, agile offers a way to deliver Big New Feature in multiple iterations that improve on one another over time. This allows teams to have an easier time estimating work requirements, deliver iterations faster, and respond to changes more quickly if designs need to change, or if the market landscape among competitors change. Being able to adapt quickly to the changing needs and expectations of users is a big advantage in software engineering.
+
+Many teams have a number of ceremonies including daily stand-ups for everyone to share what they're currently working on, and whether they've encountered any issues or blockers. There are many more. 
+
+[Atlassian has many great articles about Agile and Scrum.](https://www.atlassian.com/agile/project-management)
+
+While you don't need to be an agile expert to get your first software engineering job, it will help to be familiar with how your teams will likely communicate and prioritize work so you'll understand what your teammates mean when they talk about "epics", "stories", "velocity", "burndown", or "sprints". 
+
+#### Design and planning
+
+Part of both Waterfall and Agile is a design and planning phase, which will look different depending on a feature's iteration. It may be for something brand new, or improvements to an existing product or feature based on user research, or simply the next feature to implement in a long line of planned features.
+
+Companies may have very different processes for design and planning, but generally the product manager, designer, and tech lead, and possibly the engineering manager and others will have a high-level planning meeting to create stories that will be worked on soon by the team. The objectives may be determined by senior leadership, or the team itself based on user research or work that just needs to happen soon. When the stories are just about ready to be worked on, the entire team may have a planning meeting to agree on estimations of how complex they appear to be, and potentially assign tickets to individuals that they'll commit to delivering. Some workflows like [kanban](https://www.atlassian.com/agile/kanban) may involve engineers picking up whatever next ticket is available after completing a previous ticket.
+
+#### Code quality
+
+This is a topic that many books have been written about. Code quality is a huge, ever-changing subject, so treat this as a very brief and incomplete introduction.
+
+When you work on your own projects, you're able to structure the code any way you like, name variables anything that makes sense to you, and skip documentation all together. When working on applications that will support real users, especially applications that will be iterated overtime by multiple teams and many engineers over the long-term. Good code quality becomes critically important for many reasons. It ensures that the application is build in a way that allows for additions and changes that are straight-forward and low risk. It allows new engineers and teammates to comprehend the code more thoroughly, and more quickly, allowing them to become productive and confident with the code base faster than otherwise. It helps engineers to catch bugs long before they make it to production to be discovered by users.
+
+That all sounds great, but what does that mean? What is code quality?
+
+Many companies think about code quality in the context of defects, and testing processes, but it goes far beyond that. Building high quality software involves many thousands of decisions across the entire process of building an application, from design and planning, to initial release, and through every future iteration and refactor. 
+
+These decisions often have tradeoffs. Sometimes, the simplest solution is also the hardest solution. Sometimes the fastest solution will get the feature out fast, and make the team look like heros, but at a cost of grinding development to a halt in the future when the feature needs to change. These decisions can range from the choice of a programming language or framework to use, down to what a variable should be named. 
+
+In general for code quality, it's best to think of it in terms of "Does this solution solve the problem well, and will proposed changes improve the codebase for the long term and continue to solve the problem well." This is something you'll be learning and improving for as long as you're writing code. The industry in general learns new things all the time. Best practices will change and improve. New technologies will be discovered and released. The web development landscape is a great example. Developers went from building web page layouts with HTML tables in the 90's, to building powerful single-page applications in recent years that work on any modern browser. Back end services have had a similar evolution since the 90's. Many went from large, complex monoliths that took hours to compile in some cases, to microservice architectures that allow for deploying and scaling multiple different domain services separately, instead of one giant application. 
+
+It's easy to argue that delivering value to the customer more quickly in the short term is a higher priority than improving code quality for the long term. You'll likely have no choice but to commit that sin at one point or another in your career, but it's your job to at least ensure that the decision-makers fully understand the tradeoff they're making. Overtime, if enough corners are cut, and enough tech debt is introduced to allow for moving faster, that will eventually compound to the point where productivity overall slows down considerably as the teams need to address the tech debt that was introduced previously before being able to work on new feature work. In extreme cases, that could mean multiple large refactors that should have been part of the previous efforts. It also makes it harder and harder to estimate the complexity and time that will be needed for new feature work. Encountering tech debt unexpectedly that needs to be addressed almost always makes the project take longer to finish. It's hard to eliminate tech debt all together, but if it's managed effectively, it can at least be known during planning so that the effort to address it can be factored into feature work estimates (while hopefully not introducing new tech debt in the process).
+
+Code quality is a subject that will constantly evolve and change, and it's something you'll be learning and thinking about throughout your career. It's important to learn what quality code means in the context of what you're building, how the code might grow overtime, how many different people will be contributing, and how resilient the code must be. You may design your application code much differently if it's embedded software in a pacemaker, versus a web application for rating cats, versus a software-as-a-service (SaaS) product that millions of people are depending on for their livelihoods. 
+
+#### Legacy code
+
+At any company that's been around for more than 2 weeks, you'll have to deal with legacy code. Many people think that legacy code means "bad" code, but it's simply previously-implemented code that may need to continue to be supported while a new solution is being planned or actively developed. Sometimes, it's just older code that will not be replaced anytime soon, but needs to be supported because it's critical to customers. Many banks still use an ancient language called COBOL as the backbone of their software systems. It's not ideal, but it is helping those companies generated billions of dollars in revenue, and the risk and costs involved with modernizing the systems wouldn't be worth the outcomes in their opinion. At least that means job security for the few remaining COBOL engineers. 
+
+More commonly, you'll be supporting legacy code in a context of maintaining the expected behavior, addressing bugs, and hopefully refactoring it to follow current best practices if it cannot be replaced with a modern solution. You won't need to worry about legacy code while learning to code in general, but be aware that company codebases are not perfect, and you'll likely need to deal with sins of the past to help the company move forward. Over time, companies adopt different best practices and company cultures as different leadership regimes come and go, and as different engineer make different implementation decisions based on different priorities over time. The end result after years of change and growth in the company is usually a codebase with modern good parts, and less-than-ideal older "not so good" parts. Hopefully the bad parts have been addressed already, or are actively being addressed. 
+
+Looking at a codebase at a mature software company can seem like looking at the remnants of previous civilizations over different eras as you dig deeper and deeper. Working with this code can be a challenge, but it will make you a much better engineer as you begin seeing why older patterns have been set aside in favor of patterns that have proven to be more effective as the industry evolves. This will prove to you why the current best practices are considered best practices. They have been discovered through many years of trail-and-error. Be thankful that others have learned those hard lessons for you, and are now sharing them with you.
+
+#### Ambiguity 
+
+While thinking about Agile processes, code quality, and legacy code, and how so many different things are changing all the time, how can we plan anything with any accuracy? It is very difficult to have accurate estimates for how complex and how time-consuming software projects will be. Thankfully, modern agile processes have been improving to allow for adapting to this expected ambiguity. Many teams iterate on products in a cycle of learning, planning, executing, and learning all over again. Instead of releasing a big, complex applications all at once, many companies seek to release initial products and features as a "Minimum Viable Product", which allows for releasing the smallest piece that will provide value for customers, learning from their actual experience with it, and revising and expanding that value piece in addition to adding new pieces. Think about how much Youtube have changed over the years. The Youtube engineers have been iterating on the video platform for years to get to it's current iteration. A lot of research, observations, and user feedback have gone into the current experience of Youtube. The advantage of software versus hardware is that it can be changed. Washing machine engineers can't revise the design of the locking mechanism after it's already in your home.
+
+You will be working teams of humans, and humans are messy. Not everything will go as planned, and you'll need to be able to work within ambiguity to help your team move closer to the objectives you're working on. You won't always have someone who can tell you exactly what you must work on and when to accomplish the objectives. You must learn how to determine that for yourself within the scope of your role. You don't want to be handling tasks that are the responsibilities of others, but sometimes you may have no choice. You may also need to determine what to work on next autonomously, even as a junior engineer. This is a good opportunity to learn how to think for yourself about what needs to get done at any given point to help the team accomplish the goals. These are the skills that you'll need to hone as you level up, because you'll be expected to get the work done without being told what to do or how. You may start out being explicitly assigned tasks, and guided through how they should be done, but you won't have that support forever. Soon enough, you'll begin to find that limiting. One of the best parts of being a software engineer is having the freedom to solve complex problems in a way that you can define, instead of being told how to solve them. You'll be the one deciding how to solve them with support from your team. Being able to work with ambiguities will become more and more important as you progress in your career. 
+
+### Get ready
+
+At this point, you've had a brief general tour of what modern software engineering could look like for you. Think about whether it's something you actually want to do as a career. Learning to code takes a lot of time and effort, and you'll encounter a lot of frustration. Make sure it's worth it for you. If it is truly worth it for you, than commit to seeing this journey through to the end, and hold yourself accountable to working on this at whatever schedule you set for yourself. Take it seriously. Treat it as your second (or third) job. Find the best times to work on this most effectively. Wake up early if you need to (just be sure to get enough sleep). No matter how busy you think you are, think about times when you're watching Netflix or looking at Facebook when you could re-structure that time to be working on learning to code. You may need to restructure your life schedule in other ways, but you can pull this off if you can devote at least an hour or two most days to learning to code. Learning anything worthwhile takes dedicated time and effort. Coding is no different.
+
+Software engineering has it's ups and downs like any other career, but it offers a lot of autonomy and opportunities for solving difficult problems for customers while building cool things. If this career sounds like something worth the time and effort, congrats! This series should help guide you through the ambiguities and most difficult aspects of learning to code. 
+
+The next post may be the most important of all. How to learn how to learn. We'll go through the tools, techniques, and resources that will help you find the solutions for any problem you may encounter at any point in your journey, even long after you've been hired. After that, we'll dive right into JavaScript! 
