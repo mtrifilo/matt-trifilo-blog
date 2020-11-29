@@ -35,11 +35,11 @@ Here are some of the resources I still use to this day:
 
 #### JavaScript and Web API resources
 
-If you're completely new to coding, the following may not make any sense, but it will once we start looking at JavaScript in the next blog post. I'm sharing these now so you'll know what to reference if you want to learn more about a specific part of JavaScript, or other web technology. This will save you many headaches along the way. Just finding these resources gave me a huge boost in my own learning.
+If you're completely new to coding, the following may not sense yet, but it will once we start looking at JavaScript in the next blog post. I'm sharing these now so you'll know what to reference when you want to dig deeper into a specific part of JavaScript, or other web technology. This will save you many headaches along the way. Just finding these resources gave me a huge boost in my own learning.
 
-##### [Mozilla Developer Network (MDN)]
+##### Mozilla Developer Network (MDN)
 
-The defacto Web Development manual. This treasure of a site can teach you everything you need to know about HTML, CSS, JavaScript, Web API's, along with many good quality technical articles. 
+The defacto Web Development manual. This treasure of a site can teach you everything you need to know about HTML, CSS, JavaScript, Web API's, along with providing many good quality technical articles. 
 
 It took me a long time to uncover the pages that became my go-tos to this day when I need to look up certain JavaScript features. Here are a few:
 
@@ -47,24 +47,22 @@ It took me a long time to uncover the pages that became my go-tos to this day wh
 A great tutorial series on learning all things web development.
 
 ###### Standard built-in objects: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
-"The" JavaScript reference I still use all the time. Clicking on links to object pages for Array, Object, String, or Number from the "Built-in objects" dropdown on the left menu will provide you with all available operations for them, along with explanations and examples of usage.
+"The" JavaScript reference I still use all the time. Clicking on links to object pages for Array, Object, String, or Number from the "Built-in objects" dropdown on the left menu will provide you with all available operations for them, along with explanations and examples of usage. Explore this reference. You'll likely discover many features of JavaScript you may have never known about otherwise.
 
-###### Web APIs https://developer.mozilla.org/en-US/docs/Web/API
-A list of all the Web API's you could ever want. You'll likely never use all of them, but they are documented here for whatever you might need. You'll be able to look up documentation for web features like [Geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API), [Web Audio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API), [Ambient Light Events](https://developer.mozilla.org/en-US/docs/Web/API/Ambient_Light_Events), and whatever cool features become available in web browsers in the future.
+###### Web APIs: https://developer.mozilla.org/en-US/docs/Web/API
+A list of all the Web API's you could ever want. You probably won't use all of them, but they are documented here for whatever you might need. You'll be able to look up documentation for web features like [Geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API), [Web Audio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API), [Ambient Light Events](https://developer.mozilla.org/en-US/docs/Web/API/Ambient_Light_Events), and whatever cool features become available in web browsers in the future.
 
-The most important Web API you'll need to get familiar with is the Document Object Model (DOM):
+The most important Web API you'll need to get familiar with is the Document Object Model (DOM):  
 https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
 
-Element is especially useful when working with the DOM: 
+Element is especially useful when working with the DOM:  
 https://developer.mozilla.org/en-US/docs/Web/API/Element
 
-There are many methods available for elements for working with DOM nodes. This is where the reference really comes in handy. You'll never memorizing all of these dozens of methods, but now you know how to reference them as needed.
-
-This is what allows you to manipulate web elements using JavaScript. It's the reason modern Single Page Applications on the web are possible. It's what frameworks like React and Vue use under the hood while making your applications cleaner and easier to develop. That said, you'll need to learn about the DOM and related API's to understand what React and Vue are doing, and tradeoffs are being made. We'll cover that soon.
+There are many methods available for elements for working with DOM nodes. This is where the reference really comes in handy. You'll never want to memorize all of these dozens of methods in the low-level API, but now you know how to reference them as needed. It's worth scanning through at least to know what's available. These methods allow you to manipulate web elements using JavaScript. It's the reason modern Single Page Applications on the web are possible. It's what frameworks like React and Vue use under the hood while making your applications cleaner and easier to develop. You'll need to learn about the DOM and related lower-level web API's to understand what React and Vue are doing, and what tradeoffs are being made by using the libraries instead of the web API's directly. We'll cover that soon.
 
 ##### Free JavaScript books
 
-For me at least, it really helped to absorb different teaching styles and more detailed explanations of various JavaScript concepts. My favorite free resource for a deep-dive into JavaScript has been Kyle Simpson's excellent You Don't Know JS book series:
+For me at least, it really helped to absorb different teaching styles and more detailed explanations of various JavaScript concepts from different perspectives. My favorite free resource for a deep-dive into JavaScript has been Kyle Simpson's excellent You Don't Know JS book series:
 
 [You Don't Know JS (book series) - 1st Edition](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md)  
 [You Don't Know JS Yet (book series) - 2nd Edition](https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed) (work in progress)
@@ -75,13 +73,15 @@ He also teaches some of the best JavaScript workshops I've found, which may be b
 
 What if you see an error message that you can't figure out? That's not in the MDN...
 
-##### Google-fu
+##### Enhance your Google-fu
 
-Whenever I see a stacktrace that doesn't point to something I can immediately track down, often times, just searching Google by pasting a relevant snippet of the error message can be enough to uncover many conversations about that specific error, and how to fix it. Remember, any problem you encounter with popular languages and libraries has likely been encountered by thousands of other developers before, and developers love to post about them on Stackoverflow, GitHub, and many other places. Usually, the answer is a few Google searches away.
+Whenever I see a stacktrace that doesn't point to something in my code I can immediately fix, often times just searching Google by pasting a relevant snippet of the error message can be enough to uncover many conversations about that specific error, and how to fix it. This is especially true for vague errors from library code. Remember, any problem you encounter with popular languages and libraries has likely been encountered by thousands of other developers before, and developers love to post about them on Stackoverflow, GitHub, and many other sites. Usually, an answer is only a few Google results away.
+
+It may seem obvious, but being able to search Google effectively is an important skill in it's own right. It may take a few different searches with different wordings to get the results you need. Certain keywords may need to be added or omitted to get more relevant answers. Google is a powerful resource when used effectively, and can help you tap into the developer hive-mind when you need help with something.
 
 ##### Official documentation
 
-No matter what you're working with, be sure to familiarize yourself with the official documentation and user guides. They are generally written by the people who are most knowledgable about the subject, and are most likely to be up-to-date and accurate, since your learning from the primary source. Other sites and teachers learn from the official documentation too. Best to start with the official documentation, and branch out from there.
+No matter what you're working with, be sure to familiarize yourself with the official documentation and user guides from the start. They are generally written by the people who are most knowledgeable about the tools, and are most likely to be up-to-date and accurate. Other blog writers and teachers learn from the official documentation too. Best to start with the official documentation, and branch out from there.
 
 Examples of high quality official documentation:
 
@@ -95,33 +95,35 @@ Examples of high quality official documentation:
 
 As you begin working on projects, you'll become inundated with information. This will be especially heavy as you first learn to code. One of the most important tools I use all day, everyday while coding is a note-taking application like Evernote or Bear. I use Evernote at work (mostly since I've been using it for years), though I've been preferring Bear for personal projects.
 
-Bear: https://bear.app/
+Bear: https://bear.app/  
 Evernote: https://evernote.com/
 
 Either is fine, though I prefer Bear because it supports Markdown, has a great UI, and has a clever hashtagging system for organizing notes.
 
-A good notebook app is indispensible. Think of it as an extension of your brain. As you learn new concepts, you'll likely want to reference them quickly in the future. You can organize your learnings and thoughts into various notebooks and posts in your notebook app.
+A good notebook app is indispensible. Think of it as an extension of your brain. As you learn new concepts, you'll likely want to reference them quickly in the future. You can organize your learnings and thoughts into various notebooks and posts in your notebook app. They'll be accessible from your phone and computer, anytime you need them. 
 
-You can also collect helpful resources and organize them in a way that you can access them anytime. 
+You can also collect helpful resources and organize them so you can access them anytime. 
 
 You can save code blurbs or terminal commands you find useful so you never forget them.
 
-Pretty much anything related to learning to code, or application projects, can be captured in your notebooks. Use them.
+You can make checklists and bulletpoint outlines for planning projects, or preparing for meetings.
+
+Pretty much anything related to learning to code, or working on application projects, can be captured in your notebooks. Use them.
 
 #### Break up problems, then break them up again
 
-When you have an idea to build an application, it's important to conceptually break up the problem into small enough pieces to manage. Then, maybe break them up even more. Once you break apart the problems related to building an application into the smallest pieces, they will usually be simple to solve. For example, if you're building a chat room application, you'll likely break up that project into front end concerns, and back end concerns, and from there go deeper and deeper until you're solving for things like adding a text field element to the UI, or a new database table for user data, or a specific function for adding a new chat line to your database or other data structure. 
+When you have an idea to build an application, it's important to conceptually break up the problem into small enough pieces to manage. You won't be able to keep everything in your head at once. Once you break the problem into smaller problems, then break them up even more. Once you break apart the problems related to building an application into the smallest pieces possible, they will usually be straightforward to solve in isolation. For example, if you're building a chat room application, you'll likely break up that project into front end concerns, and back end concerns, and from there go deeper and deeper until you're solving for things like adding a text field element to the UI for entering a chat message, or a new database table for persisting user data, or a specific function for adding a new chat message to a message database table or other data structure. 
 
-It takes organization and planning, but you can solve for one unknown before other unknowns. For example, you may not have a back end for your application yet, but you can design what the expected response should be for the non-existent backend, and use mock data for the front end using that data shape until the actual back end can be implemented. You could take the opposite approach as well. Create your back end API first without a front end. 
+It takes organization and planning, but you can solve for one unknown before other unknowns. For example, you may not have a back end for your application yet, but you can decide what the expected response should be ahead of time for the non-existent backend, and use mock data for the front end until the actual back end can be implemented. You could take the opposite approach as well. You could implement your back end API first without a front end. There's no such thing as a perfect approach to building an application. As long as you can adapt to mistakes you'll make along the way, you'll get it done. That's how you learn. 
 
-Modern applications are built with many abstractions. Using a web framework, instead of the the Web API's directly, is considered an abstraction. Another example is using an authentication library, instead of implementing your own form of authentication (never recommended for actual users). We use abstractions all over the place. They're very common because almost anything you need to create modern applications has already been invented, perfected, and used by thousands of developers for many years. There's no reason to re-invent the wheel unless you're learning how the wheel works. Abstractions have tradeoffs, and some abstractions are more appropriate than others for different situations. For example, React is great for Single Page Applications, but not so great for a simple web page that will never grow.  
+Modern applications are built with many abstractions. Using a web framework, instead of the the Web API's directly, is considered an abstraction. Another example is using an authentication library instead of implementing your own form of authentication (never recommended for applications supporting real users). We use abstractions all over the place. They're very common because almost anything you need to create modern applications has already been invented, perfected, and used by thousands of developers for many years. There's no reason to re-invent the wheel unless you're learning how the wheel works. Abstractions have tradeoffs, and some abstractions are more appropriate than others for different situations. For example, React is great for Single Page Applications, but not so great for a simple web page that will never have complex user interactions.  
 
-Being able conceptualize a complete application as multiple abstractions pieced together makes the project much more manageable. You'll need to determine what the abstractions should be where appropriate, and prioritize how to piece them together. The "piecing together" part can become a challenge it itself, but that's an area where knowing your language well will save the day. There are many design patterns you can use to organize your code to allow your codebase to grow gracefully while remaining understandable, extendable, maintainable, and flexible enough to completely replace an abstraction if needed, without a massive refactor. These concerns are part of your code quality, which may be more advanced concerns that you may need to think about right now, but it may help to keep these concerns in the back of your mind as you learn about the language features.
+Being able to conceptualize a complete application as multiple abstractions pieced together (some you'll create yourself, others you'll use from libraries) makes the project much more manageable. You'll need to determine what abstractions should be used and why, and prioritize how to implement them along with your application logic. The "piecing together" part can become a challenge it itself, but that's an area where knowing your language well will save the day. There are many design patterns you can use to organize your application code to allow your codebase to grow gracefully while remaining understandable, extendable, maintainable, and flexible enough to completely replace an individual abstraction completely if needed, without a massive refactor. Managing these concerns is part of code quality. Code quality is an aspect of building software that you won't really learn until you're on the job working on large code bases with a team, but you won't be expected to understand these concerns as a junior engineer. 
 
 #### There is always a path forward. 
 
 As you learn to code, you'll hit a lot of frustrating moments as you begin to build applications. You'll likely hit a new frustration line by painful line at first. All developers have been through it. 
 
-My best advice is to try and narrow your focus to whatever the current problem is, even it's something tiny like whether to add a trailing comma. If that tiny concern causes the application to not start, than guess what? That tiny concern is now the most important concern of the whole application. It's preventing the application from starting! Without learning about and understanding that tiny concern, your application will not start. Once you learn about that concern and solve it, not only will your application be able to start, but the lesson you just learned will stay with you forever. You'll hit many tiny concerns like that to start with, but as you learn more and more of them, they will build on one another until your solving for larger and larger concerns. Knowing how to learn about them, and solve for them is the most important aspect of learning to code because you'll be using and refining this skill for the rest of your career. It's how you'll learn more and more complex skills and technologies, it's how you'll stay up-to-speed with paradigm shifts in the industry as a whole. It's how you'll level up as and engineer, get promoted, and start mentoring and teaching others. 
+My best advice is to try and narrow your focus to whatever the current problem is, no matter how small. If that tiny problem, like a missing comma, causes the application to not be able to start, than guess what? That tiny problem is now the most important concern of the whole application. It's preventing the application from starting! Without learning and understanding that tiny problem to solve it, your application will not start. Once you learn about that concern and solve it, not only will your application be able to start, but the lesson you just learned will stay with you forever. You'll hit many tiny problems like that to start with, but as you learn more and more about them, and solve them, those learnings and experiences will build upon each another until you're solving for larger and larger concerns all at once. Developing the skills related to learning about the problems you're encountering, and how to solve for them now and in the future, is probably the most important aspect of learning to code because you'll be using and refining these investigative skills for the rest of your career. It's how you'll learn more and more complex skills and technologies. It's how you'll stay up-to-speed with paradigm shifts in the industry as a whole. It's how you'll level up as and engineer, get promoted, and start mentoring and teaching others. 
 
-Now that you've learned the most important skill for becoming a software engineer, let's learn JavaScript!
+Now that you've learned the most important skills for becoming a software engineer, and how to develop them, let's learn JavaScript!
